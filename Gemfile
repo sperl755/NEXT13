@@ -59,8 +59,8 @@ group :development do
   gem 'binding_of_caller', '~> 0.6.8'
   gem 'better_logging',    '~> 1.0.3'
   gem 'meta_request',      '~> 0.2.1'
-	
-	gem 'capistrano',        '~> 2.14.2'
+
+  gem 'capistrano',        '~> 2.14.2'
   gem 'capistrano-ext',    '~> 1.2.1'
 end
 
@@ -75,7 +75,6 @@ group :test do
   gem 'database_cleaner', '~> 0.9.1'
   gem 'ffaker',           '~> 1.15.0'
   gem 'email_spec',       '~> 1.2.1'
-  gem 'mongoid-rspec',    '~> 1.4.6'
 end
 
 # Detect mobile devices
